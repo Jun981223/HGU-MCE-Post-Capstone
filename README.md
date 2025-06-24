@@ -1,8 +1,8 @@
-📁 Simulation and Experimental Data Description
+Simulation and Experimental Data Description
 This project applies surrogate modeling using two types of data sources: simulation and experiment. The structure and usage for each is described below.
 
 
-🧮 1. Simulation-based Data
+1. Simulation-based Data
 The full simulation process is implemented in the MATLAB script:
 FINAL.m
 
@@ -13,7 +13,7 @@ Extract response features such as roll angle, pitch rate, and heave acceleration
 Save the results for use in surrogate modeling
 
 
-🧪 2. Experiment-based Data
+2. Experiment-based Data
 Experimental data consists of 20 CSV files collected from IMU sensors during real vehicle tests.
 Each file corresponds to one test case, and is named as:
 experiment_data/
